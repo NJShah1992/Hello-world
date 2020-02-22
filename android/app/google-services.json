@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "377106385222",
+    "firebase_url": "https://shop-cart-b948b.firebaseio.com",
+    "project_id": "shop-cart-b948b",
+    "storage_bucket": "shop-cart-b948b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377106385222:android:fd5089849a3e1795fb3d47",
+        "android_client_info": {
+          "package_name": "com.nidhi.shop_cart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377106385222-95b5jbstisrbbi25ahjkv29d6q02a1q2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhlXrSai60NI-effriEeucTEjwwKcOFJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377106385222-95b5jbstisrbbi25ahjkv29d6q02a1q2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
