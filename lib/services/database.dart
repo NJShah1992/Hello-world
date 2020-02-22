@@ -1,5 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:shop_cart/models/products.dart';
+import 'package:shop_cart/models/user.dart';
+import 'package:shop_cart/services/auth.dart';
+import 'package:provider/provider.dart';
 
 class DatabaseService {
   final String uid;
@@ -7,7 +10,7 @@ class DatabaseService {
 
   //collection reference
   final CollectionReference productCollection = Firestore.instance.collection('products');
-
+final AuthService _auth = AuthService();
   Future update()async{
     return await productCollection.document(uid).setData({
       "Product" : [],
@@ -27,7 +30,7 @@ class DatabaseService {
   }
 
 
-  List<Prod> _productListFromSnapshot (QuerySnapshot snapshot){
+ /* List<Prod> _productListFromSnapshot (QuerySnapshot snapshot){
     return snapshot.documents.map((doc){
       return Prod(
         cartProd: doc.data['Product'],
@@ -41,8 +44,8 @@ class DatabaseService {
 
   //get streams
 Stream<List<Prod>> get products{
-    //print('Abb');
-    return productCollection.snapshots()
+    //return Firestore.instance.collection('products').document(user.uid).snapshots()
+  return productCollection.snapshots()
         .map(_productListFromSnapshot);
-}
+}*/
 }

@@ -21,54 +21,54 @@ class _ProductListState extends State<ProductList> {
   {
   "name":"Split AC",
   "Picture":"assets/0.jpeg",
-  "Price":"25000",
+  "Price":25000,
   },
     {
       "name":"Fan",
       "Picture":"assets/1.jpeg",
-      "Price":"1000",
+      "Price":1000,
     },
     {
       //"id":"2",
       "name":"Grinder",
       "Picture":"assets/2.jpeg",
-      "Price":"5000",
+      "Price":5000,
     },
     {
       //"id":"3",
       "name":"Earphone",
       "Picture":"assets/3.jpeg",
-      "Price":"1000",
+      "Price":1000,
     },
     {
       //"id":"4",
       "name":"Watch",
       "Picture":"assets/4.jpeg",
-      "Price":"2500",
+      "Price":2500,
     },
     {
       //"id":"5",
       "name":"Toaster",
       "Picture":"assets/5.jpeg",
-      "Price":"4000",
+      "Price":4000,
     },
     {
       //"id":"6",
       "name":"Roti maker",
       "Picture":"assets/6.jpeg",
-      "Price":"3000",
+      "Price":3000,
     },
     {
       //"id":"7",
       "name":"Sewing machine",
       "Picture":"assets/7.jpeg",
-      "Price":"10000",
+      "Price":10000,
     },
     {
       //"id":"8",
       "name":"Refrigerator",
       "Picture":"assets/8.jpeg",
-      "Price":"30000",
+      "Price":30000,
     },
   ];
   final AuthService _auth = AuthService();

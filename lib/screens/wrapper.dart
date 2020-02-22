@@ -17,10 +17,11 @@ class Wrapper extends StatelessWidget {
     if(user == null){
       return Authenticate();
     } else {
-      return StreamProvider<List<Prod>>.value(
-        value: DatabaseService().products,
-        child: Home(),
-      );
+      //return StreamProvider<List<Prod>>.value(
+        //value: DatabaseService().products,
+        //child: Home(),
+      //);
+      return Home();
     }
   }
 }
